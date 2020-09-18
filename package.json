@@ -4,9 +4,17 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "start": "parcel src/index.html",
+    "build-prod": "parcel build src/index.html"  },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC", 
+  "dependencies": {
+    "tailwindcss": "^1.8.10"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^3.2.2",
+    "autoprefixer": "^10.0.0"
+  }
 }
